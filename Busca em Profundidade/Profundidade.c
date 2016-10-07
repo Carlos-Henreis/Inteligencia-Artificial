@@ -158,10 +158,10 @@ int main(void) {
 		scanf (" %[^\n]s", from);
 		printf("Entre com a cidade de destino\n");
 		scanf (" %[^\n]s", to);
-		/*Chamadas das funcções de verificações*/
+		/*Chamadas das funções de verificações*/
 		isflight(from,to);
 		route(to);
 		printf("%s, %s\n", from, to);
 	} while (strcmp(from, to) == 0);
-	return 0;
+	return 0;//fim
 }
